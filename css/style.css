@@ -234,6 +234,29 @@ footer {
     font-size: 24px;
 }
 
+.media-icon-link .fa-linkedin {
+    color: #0966C2;
+    padding: 5px;
+
+}
+.media-icon-link .fa-facebook-square {
+    color: #0980EC;
+    padding: 5px;
+
+
+}
+.media-icon-link .fa-youtube {
+    color: #FF0100;
+    padding: 5px;
+
+
+}
+.media-icon-link .fa-twitter-square {
+    color: #1991DA;
+    padding: 5px;
+
+}
+
 /* -------------
    Media Queries 
    ------------- */
@@ -250,13 +273,14 @@ footer {
     }  
     .top-section-left {
         margin-left: 0px;
-        padding-left: 16px;
+        padding-left: 30px;
         padding-top: 60px;
     }
     .top-section-title {
         font-size: 36px;
     }
     .top-section-banner-img {
+        padding-left: 30px;
         width: 329px;
         height: 259.17px;
     }
@@ -285,6 +309,11 @@ footer {
         font-size: 12px;
         padding-top: 0px;
         margin-top: 0px;
+    }
+    .football-logo {
+        width: 400px;
+        height: 100px;
+        
     }
        
    }
