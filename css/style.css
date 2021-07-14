@@ -48,6 +48,7 @@ main {
 }
 .europa-color {
     color: #3DBAFE;
+    transition: color 2s;
 }
 .watch-live-button {
     text-decoration: none;
@@ -78,6 +79,10 @@ main {
     height: 438px;
     padding: 0px;
 }
+
+/* ---------------------------------------
+   transform and transition on top section  
+   --------------------------------------- */
 .europa-color:hover {
     color: rgb(250, 214, 9);
 }
