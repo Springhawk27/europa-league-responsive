@@ -77,8 +77,21 @@ main {
     width: 556px;
     height: 438px;
 }
+.europa-color:hover {
+    color: rgb(250, 214, 9);
+}
 
-/* top players style  */
+.top-section-banner-img:hover {
+    /* transform: scale(1.4) rotate(60deg); */
+    /* transform: scale(1.4) rotate(360deg); */
+    transform: scale(1.5) skew(20deg, 20deg);
+    transition: transform 3s;
+}
+
+/* mid section - players style  */
+.mid-container {
+    background-color: aliceblue;
+}
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -91,9 +104,11 @@ main {
 
 .player {
     /* background-color: #9794c0; */
+    background-color: white;
     width: 330px;
     height: 474px;
     margin: 15px;
+    border-radius: 5px;
     /* display: flex; */
     align-items: center;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -119,6 +134,36 @@ main {
     padding-left: 15px;
     margin: 0px;
 }
+/* -----------------------
+    featured video section
+   ----------------------- */
+.featured-video-container {
+    margin: auto;
+    /* flex-shrink: 1; */
+}
+.featured-video-title {
+    font-size: 28px;
+    padding-left: 20px;
+}
+.featured-videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    padding: 30px;
+
+}
+.featured-video iframe{
+    width: 350px;
+    height: 200px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.featured-video-detail {
+    justify-content: center;
+    height: 50px;
+    font-size: 16px;
+}
+
 
 /* -----------------------
             footer
@@ -150,11 +195,15 @@ footer {
         height: 100%;
         grid-template-columns: repeat(1, 1fr);
     }  
-    .players {
+    .players, .featured-videos {
            grid-template-columns: repeat(1, 1fr);
        }
     .player {
         flex-direction: column;
+    }
+    .feutured-video iframe {
+        width: 250px;
+        height: 180px;
     }
        
    }
@@ -170,8 +219,12 @@ footer {
         height: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
-    .players {
+    .players, .featured-videos {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .feutured-video iframe {
+        width: 250px;
+        height: 180px;
     }
        
    }
