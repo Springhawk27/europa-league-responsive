@@ -329,6 +329,14 @@ footer {
         height: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
+    .top-section-title {
+        font-size: 48px;
+    }
+    .top-section-banner-img {
+        width: 500px;
+        height: 400px;
+        padding-left: 150px;
+    }
     .players {
         grid-template-columns: repeat(2, 1fr);
     }
